@@ -1,3 +1,8 @@
+<?php
+    $a = 5;
+    $b = 10;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,7 +11,10 @@
         <title>CURSO PHP FUNDAMENTAL</title>
     </head>
     <body>
-        <?php 
+        <?php
+            if($a > $b){
+                echo "a é maior do que b";
+            } 
 
         ?>
     </body>

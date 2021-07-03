@@ -1,3 +1,8 @@
+<?php
+    $a = 7;
+    $b = 7;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,7 +12,13 @@
     </head>
     <body>
         <?php 
-
+            if($a > $b){
+                echo "a é maior do que b";
+            }else if($b > $a){
+                echo "b é maior do que a"; 
+            }else{
+                echo "a e b são iguais";
+            }
         ?>
     </body>
 </html>

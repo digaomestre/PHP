@@ -5,8 +5,13 @@
     <title>CURSO PHP FUNDAMENTAL</title>
 </head>
 <body>
-    <?php                    
-        $_salada = array("","","");
-    ?>
+    <pre>
+        <?php                    
+            $_salada = array("Rodrigo Tomaz","Vivian Graziella","Elizabeth C. Souza");
+            foreach($_salada as $frutas){
+                echo $frutas."<br>";
+            }
+        ?>
+    </pre>
 </body>
 </html>

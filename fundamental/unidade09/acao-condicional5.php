@@ -1,3 +1,7 @@
+<?php
+    $idade = 17;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,7 +11,8 @@
     </head>
     <body>
         <?php 
-
+            $maiorIdade = ($idade>=18)?"Maior de idade":"Menor de idade";
+            echo $maiorIdade;
         ?>
     </body>
 </html>
