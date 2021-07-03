@@ -14,23 +14,29 @@
         <?php 
             // strlen - Retorna primeira ocorrencia
             
+            echo strlen($_nome);
             
             // stripos  - Retorna primeira ocorrência 
-            
+
+            echo stripos($_nome, "s");
 
             // strripos - Retorna última ocorrência
             
-            
+            echo strripos($_nome, "n");
+
             // strtolower - converte para letras min.
             
+            echo strtolower($_nome) . " ";
 
             // strtoupper - converte para letras min.
             
+            echo strtoupper($_nome) . " ";
 
             // SUBSTR_COUNT - Conta quantas ocorreram
             // de um texto ou string
             // Faz diferença Maiusculas e minusculas
             
+            echo substr($_nome, 0, 5);  
         ?>
         
         
