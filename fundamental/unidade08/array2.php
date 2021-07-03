@@ -1,5 +1,6 @@
 <?php
-
+    $mega = array("47", "29", "42", "04", "27", "21");
+    sort($mega);
 ?>
 
 <!doctype html>
@@ -10,9 +11,14 @@
     </head>
 
     <body>
-        <?php 
-            $_1telefone = "Matheus Fontenelle"; 
-            echo $_1telefone;
+        <?php
+            echo "Maior valor: ". max($mega)."<br>";
+            echo "Menor valor: ".min($mega);
         ?>
+        <pre>
+            <?php 
+                print_r($mega);
+            ?>
+        </pre>
     </body>
 </html>
