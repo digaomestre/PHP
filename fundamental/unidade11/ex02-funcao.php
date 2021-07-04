@@ -6,11 +6,13 @@
 </head>
 <body>
     <?php 
-        function retornarDiaria() {
-            return number_format( 1900/30, 2);
+        function retornarDiaria($salario) {
+            return number_format( $salario/30, 2);
+            
         }
 
-        echo retornarDiaria();
+        echo retornarDiaria(3790,73). "<br>";
+        echo retornarDiaria(5000);
     ?>
 </body>
 </html>

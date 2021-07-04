@@ -6,7 +6,10 @@
 </head>
 <body>
     <?php 
-
+        function retonarDiaria(){
+            return number_format(3790.73 / 3, 2);
+        }
+        echo retonarDiaria();
     ?>
 </body>
 </html>
