@@ -7,7 +7,9 @@
 
     <body>
         <?php
-            date_default_timezone_set('US/Eastern');
+            date_default_timezone_set('America/Sao_Paulo');
+            setlocale(LC_ALL, 'Portuguese');
+            
             $_agora = getdate();
             
             // criar elementos
