@@ -8,9 +8,9 @@
     <body>
         
         <ul>
-            <li>Laranja</li>
-            <li>Maçã</li>
-            <li>Abacate</li>
+            <li><a href="destino.php?codigo=0">Laranja</a></li>
+            <li><a href="destino.php?codigo=1">Maçã</li>
+            <li><a href="destino.php?codigo=2">Abacate</li>
         </ul> 
         
     </body>
